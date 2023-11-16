@@ -1,0 +1,17 @@
+# Python & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+static/tts/*.mp3
+
+# Nexus Next.js dependencies & builds (Strictly Ignored)
+node_modules/
+**/node_modules/**
+.next/
+**/.next/**
+out/
+**/out/**
+.env*.local
+.vercel/
